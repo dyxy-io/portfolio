@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://docs.dyxy.io/logo/dark.svg" alt="DYXY" height="48">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://docs.dyxy.io/logo/dark.svg">
+    <img src="https://docs.dyxy.io/logo/light.svg" alt="DYXY" height="48">
+  </picture>
 </p>
 
 # DYXY Portfolio
@@ -14,7 +17,7 @@ How the DYXY Portfolio gathers balances, positions, orders, yields and history a
 flowchart LR
     subgraph Sources
         W["Wallets<br/>8 networks"]
-        PB["Perps balance<br/>Aster"]
+        PB["Perps balance<br/>Hyperliquid"]
         DB["Degen balance<br/>Hyperliquid"]
         BB["Bots balance<br/>Hyperliquid"]
         PL["Pools<br/>PancakeSwap · Uniswap · Aerodrome"]
