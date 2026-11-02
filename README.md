@@ -17,9 +17,9 @@ How the DYXY Portfolio gathers balances, positions, orders, yields and history a
 flowchart LR
     subgraph Sources
         W["Wallets<br/>8 networks"]
-        PB["Perps balance<br/>Hyperliquid"]
-        DB["Degen balance<br/>Hyperliquid"]
-        BB["Bots balance<br/>Hyperliquid"]
+        PB["Perps balance<br/>HyperEVM"]
+        DB["Degen balance<br/>HyperEVM"]
+        BB["Bots balance<br/>HyperEVM"]
         PL["Pools<br/>PancakeSwap · Uniswap · Aerodrome"]
         SK["Staking"]
         LD["Lend<br/>Aave · Morpho · Kamino · Fluid"]
