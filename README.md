@@ -7,7 +7,7 @@
 
 # DYXY Portfolio
 
-How the DYXY Portfolio gathers balances, positions, orders, yields and history across eight networks and every product into one view.
+How the DYXY Portfolio gathers balances, positions, orders, yields and history across 8 networks and every product into one view.
 
 > This repository describes how the product works. It does not contain DYXY source code. User guide: [docs.dyxy.io/portfolio](https://docs.dyxy.io/portfolio/overview).
 
